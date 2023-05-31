@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="bg_primary">#5CD85A</color>
+    <color name="bg_primary_variant">#007262</color>
+    <color name="bg_secondary">#1A5653</color>
+    <color name="bg_background">#08313A</color>
+
+</resources>
