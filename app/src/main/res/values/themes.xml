@@ -7,9 +7,11 @@
          <item name="colorSecondary">@color/bg_secondary</item>
 
 
-         <item name="android:statusBarColor">?attr/colorPrimary</item>
+         <item name="android:statusBarColor">@color/bg_primary_variant</item>
          <item name="android:colorBackground">@color/bg_primary_variant</item>
 
+
+        <item name="colorOnSurface">@color/white</item><!--inputtext unfocused color-->
     </style>
 
     <style name="Theme.CalculaterIMC" parent="Base.Theme.CalculaterIMC" />

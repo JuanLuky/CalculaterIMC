@@ -7,8 +7,10 @@
         <item name="colorSecondary">@color/bg_secondary</item>
 
 
-        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:statusBarColor">@color/bg_background</item>
         <item name="android:colorBackground">@color/bg_background</item>
+
+        <item name="colorOnSurface">@color/bg_primary</item><!--inputtext unfocused color-->
 
     </style>
 

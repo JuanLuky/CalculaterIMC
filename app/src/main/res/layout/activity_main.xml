@@ -20,23 +20,24 @@
         app:srcCompat="@drawable/logo" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout"
+        android:id="@+id/input_peso"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="409dp"
-
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:padding="10dp"
         android:textColorHint="@color/mtrl_outlined_stroke_color"
-        app:boxBackgroundMode="outline"
         app:boxStrokeColor="@color/mtrl_outlined_stroke_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView">
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="PrivateResource">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_peso_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Digite seu peso ex: 62.5"
@@ -47,7 +48,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout2"
+        android:id="@+id/input_altura"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="409dp"
 
@@ -57,14 +58,15 @@
         android:layout_marginEnd="16dp"
         android:padding="10dp"
         android:textColorHint="@color/mtrl_outlined_stroke_color"
-        app:boxBackgroundMode="outline"
         app:boxStrokeColor="@color/mtrl_outlined_stroke_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
+        app:layout_constraintTop_toBottomOf="@+id/input_peso"
+        tools:ignore="PrivateResource">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_altura_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Digite sua altura ex: 1.70"
@@ -73,7 +75,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/help_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -84,7 +86,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
+        app:layout_constraintTop_toBottomOf="@+id/input_altura" />
 
     <Button
         android:id="@+id/btn_calcular"
@@ -102,7 +104,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/help_text"
         app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.SmallComponent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
