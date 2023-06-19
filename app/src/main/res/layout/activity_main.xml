@@ -38,6 +38,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/input_peso_value"
+            android:maxLength="4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Digite seu peso ex: 62.5"
@@ -67,6 +68,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/input_altura_value"
+            android:maxLength="4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Digite sua altura ex: 1.70"
